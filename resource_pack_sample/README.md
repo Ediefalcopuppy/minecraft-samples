@@ -5,16 +5,16 @@ description: The sample Resource Pack used in the Resource Packs Tutorial.
 ms.author: v-bbortree
 ms.date: 05/17/2022
 languages:
-- json
+  - json
 products:
-- minecraft
+  - minecraft
 ---
 
 # Resource Pack Sample
 
 This sample is the resource pack used in the Intro to Resource Packs Tutorial.
 
-See the [Intro to Resource Packs](https://docs.microsoft.com/minecraft/creator/documents/resourcepack) documentation for the full walkthrough turning your dirt blocks bright green.
+See the [Intro to Resource Packs](https://learn.microsoft.com/minecraft/creator/documents/resourcepack) documentation for the full walkthrough turning your dirt blocks bright green.
 
 ## Using the Resource Pack Sample
 
@@ -23,7 +23,7 @@ The resource pack sample is a useful tool to check your work while completing th
 ### Locate the com.mojang folder
 
 1. Press Win+R to open Run.
-1. Copy and paste the following into the Open field: `%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang`
+1. Copy and paste the following into the Open field: `%appdata%\Minecraft Bedrock\users\shared\games\com.mojang`
 1. Click OK.
 
 ### Copy Resource Pack sample into the `com.mojang` folder

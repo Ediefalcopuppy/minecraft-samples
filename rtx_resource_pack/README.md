@@ -5,16 +5,16 @@ description: The sample RTX resource pack used in the Physically Based Rendering
 ms.author: v-bbortree
 ms.date: 03/21/2022
 languages:
-- json
+  - json
 products:
-- minecraft
+  - minecraft
 ---
 
 # RTX Resource Pack
 
 This sample is the resource pack used in the Physically Based Rendering Workflow tutorial.
 
-See the [Physically Based Rendering Workflow](https://docs.microsoft.com/minecraft/creator/documents/rtxpbrtutorial) documentation for the full walkthrough of creating a new RTX texture.
+See the [Physically Based Rendering Workflow](https://learn.microsoft.com/minecraft/creator/documents/rtxpbrtutorial) documentation for the full walkthrough of creating a new RTX texture.
 
 ## Using the RTX Sample Resource Pack
 
@@ -23,7 +23,7 @@ The RTX Sample Resource Pack is a useful tool to check your work while completin
 ### Locate the com.mojang folder
 
 1. Press Win+R to open Run.
-1. Copy and paste the following into the Open field: `%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang`
+1. Copy and paste the following into the Open field: `%appdata%\Minecraft Bedrock\users\shared\games\com.mojang`
 1. Click OK.
 
 ### Copy RTX Sample Resource Pack into the folder
@@ -41,9 +41,7 @@ The RTX Sample Resource Pack is a useful tool to check your work while completin
 1. Select My RESOURCE Pack and click Activate to add the resource pack to the world.
 1. Click Create to create your world.
 
-
 You can now give yourself concrete blocks, emerald ore, or an iron block to test the various texture affects used throughout the tutorial.
-
 
 ## Manifest
 

@@ -5,16 +5,16 @@ description: The sample Structure Blocks behavior pack used in the Structure Blo
 ms.author: v-bbortree
 ms.date: 04/13/2022
 languages:
-- json
+  - json
 products:
-- minecraft
+  - minecraft
 ---
 
 # Structure Blocks Sample Behavior Pack
 
 This sample is the behavior pack used in the Structure Blocks Tutorial.
 
-See the [Structure Blocks Tutorial](https://docs.microsoft.com/minecraft/creator/documents/structureblockstutorial) documentation for the full walkthrough of using structure blocks and the `/structure` command to place buildings.
+See the [Structure Blocks Tutorial](https://learn.microsoft.com/minecraft/creator/documents/structureblockstutorial) documentation for the full walkthrough of using structure blocks and the `/structure` command to place buildings.
 
 ## Using the Structure Blocks behavior pack
 
@@ -23,7 +23,7 @@ The Structure Blocks behavior pack is a useful tool to check your work while com
 ### Locate the com.mojang folder
 
 1. Press Win+R to open Run.
-1. Copy and paste the following into the Open field: `%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang`
+1. Copy and paste the following into the Open field: `%appdata%\Minecraft Bedrock\users\shared\games\com.mojang`
 1. Click OK.
 
 ### Copy Structure Blocks behavior pack into the `com.mojang` folder
